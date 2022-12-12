@@ -1,3 +1,4 @@
+require('./scene.bin');
 import { Group } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js';
@@ -5,7 +6,6 @@ import MODEL from './scene.gltf';
 
 require('./textures/defaultMat_baseColor.jpeg');
 require('./textures/defaultMat_normal.jpeg');
-require('./scene.bin');
 
 class Skull extends Group {
     constructor(parent) {
